@@ -91,4 +91,4 @@ Javier Caicedo Pedrozo
 
 - Carga de los datos:
 
-  El script de python para cargar los datos desde el sitio donde están alojados se encuentra en la carpeta scripts y lleva por nombre carga_data.py.
+  El script de python para cargar los datos desde el sitio donde están alojados se encuentra en la ruta scripts/data_acquisition y lleva por nombre carga_data.py.

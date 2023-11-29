@@ -27,7 +27,7 @@
 | 21     | Curricular units 1st sem (enrolled) | El número de unidades curriculares matriculadas por el estudiante en el primer semestre. | Numérico|0-26| data_educacion.csv |
 | 22     | Curricular units 1st sem (evaluations) | El número de unidades curriculares evaluadas por el estudiante en el primer semestre. |Numérico| 0-45 | data_educacion.csv |
 | 23     | Curricular units 1st sem (approved) | El número de unidades curriculares aprobadas por el estudiante en el primer semestre.| Numérico| 0-26 | data_educacion.csv |
-| 24     | Curricular units 1st sem (grade) | -- |Numerico | 0-1,16e16 | data_educacion.csv |
+| 24     | Curricular units 1st sem (grade)(*) | -- |Numerico | 0-1,16e16 | data_educacion.csv |
 | 25     | Curricular units 1st sem (without evaluations)| -- | Numerico| 0-12  | data_educacion.csv |
 | 26     | Curricular units 2nd sem (credited) | El número de unidades curriculares acreditadas por el estudiante en el segundo semestre. | Numérico|0-19 | data_educacion.csv |
 | 27     | Curricular units 2nd sem (enrolled) | El número de unidades curriculares matriculadas por el estudiante en el segundo semestre.| Numérico| 0-23 | data_educacion.csv |

@@ -59,8 +59,7 @@ El modelo tuvo un buen desempeño, sin embargo es conveniene experiementar más 
 - Contrario a lo esperado el modelo multiclase, tiene un mejor rendimiento con una función de perdida binary_crossentropy, cuando debiese ser modelado con una función categorical_crossentropy, lo cual podría sugerir, que el sistema aprende a distinguir mejor un conjunto de clase como abandono (Dropout) y Graduate (Graduado).
 - 
 
-## Referencias
-
-Lista de referencias utilizadas para construir el modelo baseline y evaluar su rendimiento.
+## Script de python
+El script de python que contiene todas las operaciones referidas arriba se puede encontrar en el directorio modeling/modeling.py en este repositorio.
 
 

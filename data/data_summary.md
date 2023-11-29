@@ -72,3 +72,6 @@ Se encuentra que varias variables suscriben una correlación alta, por ejemplo, 
 La matriz de dispersión obtenida para el conjunto de datos se muestra abajo, cabe resaltar que existe sobreposición entre los nombres de la variables debido a la gran cantidad de campos con los que cuenta el conjunto de datos.
 
 <img src="https://i.postimg.cc/4N4mW2z9/matriz-de-dispersion.png" />
+
+## Script de python
+El script de python con las instrucciones necesarias para aplicar las operaciones descritas previamente sobre los datos, se encuentran en el directorio: data/clean_data.py de este repositoro.

@@ -25,41 +25,43 @@ Dada las características del problema a tratar y considerando que se cuenta con
 - ¿Qué se hará?
   El conjunto de datos con el que se trabajará lleva por nombre, Predict students' dropout and academic success, tomado del repositorio de Kaggle, en la siguiente dirección: https://www.kaggle.com/datasets/thedevastator/higher-education-predictors-of-student-retention/data , este conjunto de datos está compuesto por 35 columnas y 4424 registros. Las características con las que cuenta el dataset se muestran a continuación:
 
-1.	Marital status [Estado civil]: El estado civil del estudiante. (Categórico)
-2.	Application mode [Modo de solicitud]: El método de solicitud utilizado por el estudiante. (Categórico)
-3.	Application order [Orden de solicitud]: El orden en que el estudiante presentó la solicitud. (Numérico)
-4.	Course [Curso]: El curso realizado por el alumno. (Categórico)
-5.	Daytime/evening attendance [Asistencia diurna/noche]: Si el alumno asiste a clase durante el día o por la tarde. (Categórica)
-6.	Previous qualification [ Titulación previa]: La titulación obtenida por el estudiante antes de matricularse en la enseñanza superior. (Categórica)
-7.	Nacionality [ Nacionalidad]: La nacionalidad del estudiante. (Categórico)
-8.	Mother's qualification [Titulación de la madre]: La cualificación de la madre del estudiante. (Categórico)
-9.	Father's qualification [Titulación del padre]: La cualificación del padre del estudiante. (Categórico)
-10.	Mother's occupation [Profesión de la madre]: La ocupación de la madre del estudiante. (Categórico)
-11.	Father's occupation [Profesión del padre]: La ocupación del padre del estudiante. (Categórico)
-12.	Displaced [Desplazado]: Si el estudiante es una persona desplazada. (Categórico)
-13.	Educational special needs [Necesidades Educativas Especiales]: Si el alumno tiene necesidades educativas especiales. (Categórico)
-14.	Debtor:[Deudor] Si el alumno es deudor. (Categórico)
-15.	Tuition fees up to date [Colegiaturas]: Si las tasas de matrícula del estudiante están al día. (Categórico)
-16.	Gender [Genero]: El sexo del estudiante. (Categórico)
-17.	Scholarship holder [Becario]: Si el alumno es becario. (Categórico)
-18.	Age at enrollment [Edad en el momento de la inscripción]: La edad del alumno en el momento de la matriculación. (Numérico)
-19.	International [Internacional]: Si el estudiante es internacional. (Categórico)
-20.	Curricular units 1st sem (credited) [Unidades curriculares 1er sem (acreditadas)]: El número de unidades curriculares acreditadas por el estudiante en el primer semestre. (Numérico)
-21.	Curricular units 1st sem (enrolled) [Unidades curriculares 1er sem (matriculado)]: El número de unidades curriculares matriculadas por el estudiante en el primer semestre. (Numérico)
-22.	Curricular units 1st sem (evaluations) [Unidades curriculares 1er sem (evaluadas)]: El número de unidades curriculares evaluadas por el estudiante en el primer semestre. (Numérico)
-23.	Curricular units 1st sem (approved) [Unidades curriculares 1er sem (aprobadas)]: El número de unidades curriculares aprobadas por el estudiante en el primer semestre. (Numérico)
-24.	Curricular units 1st sem (grade)
-25.	Curricular units 1st sem (without evaluations)
-26.	Curricular units 2st sem (credited) [Unidades curriculares 2do sem (acreditadas)]: El número de unidades curriculares acreditadas por el estudiante en el primer semestre. (Numérico)
-27.	Curricular units 2st sem (enrolled) [Unidades curriculares 2do sem (matriculado)]: El número de unidades curriculares matriculadas por el estudiante en el primer semestre. (Numérico)
-28.	Curricular units 2st sem (evaluations) [Unidades curriculares 2do sem (evaluadas)]: El número de unidades curriculares evaluadas por el estudiante en el primer semestre. (Numérico)
-29.	Curricular units 2st sem (approved) [Unidades curriculares 2do sem (aprobadas)]: El número de unidades curriculares aprobadas por el estudiante en el primer semestre. (Numérico)
-30.	Curricular units 2st sem (grade)
-31.	Curricular units 2st sem (without evaluations)
-32.	Unemployment rate [Tasa de desempleo]:
-33.	Inflation rate [Tasa de inflación]:
-34.	GDP [PIB]:
-35.	Target [Objetivo]: Clasificación del registro entre Dropout [Abandonó], Graduated [Graduado], Enrolled [matriculado].
+|#|Campo|Descripción|Tipo|
+|--|--|--|--|
+|1.	|Marital status [Estado civil]:| El estado civil del estudiante. |(Categórico)|
+|2.	|Application mode [Modo de solicitud]:| El método de solicitud utilizado por el estudiante. |(Categórico)|
+|3.|	Application order [Orden de solicitud]:| El orden en que el estudiante presentó la solicitud. |(Numérico)|
+|4.|	Course [Curso]:| El curso realizado por el alumno.| (Categórico)|
+|5.|	Daytime/evening attendance [Asistencia diurna/noche]:| Si el alumno asiste a clase durante el día o por la tarde. |(Categórica)|
+|6.|	Previous qualification [ Titulación previa]:| La titulación obtenida por el estudiante antes de matricularse en la enseñanza superior. |(Categórica)|
+|7.	|Nacionality [ Nacionalidad]:| La nacionalidad del estudiante. |(Categórico)|
+|8.	|Mother's qualification [Titulación de la madre]:| La cualificación de la madre del estudiante. |(Categórico)|
+|9.|	Father's qualification [Titulación del padre]:| La cualificación del padre del estudiante.| (Categórico)|
+|10.	|Mother's occupation [Profesión de la madre]:| La ocupación de la madre del estudiante.| (Categórico)|
+|11.|	Father's occupation [Profesión del padre]:| La ocupación del padre del estudiante.| (Categórico)|
+|12.|	Displaced [Desplazado]:| Si el estudiante es una persona desplazada. |(Categórico)|
+|13.	|Educational special needs [Necesidades Educativas Especiales]: |Si el alumno tiene necesidades educativas especiales. |(Categórico)|
+|14.	|Debtor:[Deudor] |Si el alumno es deudor. |(Categórico)|
+|15.	|Tuition fees up to date [Colegiaturas]:| Si las tasas de matrícula del estudiante están al día.|(Categórico)|
+|16.|	Gender [Genero]: |El sexo del estudiante. |(Categórico)|
+|17.	|Scholarship holder [Becario]:| Si el alumno es becario.| (Categórico)|
+|18.	|Age at enrollment [Edad en el momento de la inscripción]:| La edad del alumno en el momento de la matriculación.|(Numérico)|
+|19.	|International [Internacional]: |Si el estudiante es internacional. |(Categórico)|
+|20.	|Curricular units 1st sem (credited) [Unidades curriculares 1er sem (acreditadas)]:| El número de unidades curriculares acreditadas por el estudiante en el primer semestre.| (Numérico)|
+|21.	|Curricular units 1st sem (enrolled) [Unidades curriculares 1er sem (matriculado)]:| El número de unidades curriculares matriculadas por el estudiante en el primer semestre.| (Numérico)|
+|22.|	Curricular units 1st sem (evaluations) [Unidades curriculares 1er sem (evaluadas)]:| El número de unidades curriculares evaluadas por el estudiante en el primer semestre. |(Numérico)|
+|23.	|Curricular units 1st sem (approved) [Unidades curriculares 1er sem (aprobadas)]: |El número de unidades curriculares aprobadas por el estudiante en el primer semestre.| (Numérico)|
+|24.	|Curricular units 1st sem (grade)|--|--|
+|25.|	Curricular units 1st sem (without evaluations)|--|--|
+|26.	|Curricular units 2st sem (credited) [Unidades curriculares 2do sem (acreditadas)]: |El número de unidades curriculares acreditadas por el estudiante en el primer semestre.| (Numérico)|
+|27.	|Curricular units 2st sem (enrolled) [Unidades curriculares 2do sem (matriculado)]:| El número de unidades curriculares matriculadas por el estudiante en el primer semestre. |(Numérico)|
+|28.	|Curricular units 2st sem (evaluations) [Unidades curriculares 2do sem (evaluadas)]:| El número de unidades curriculares evaluadas por el estudiante en el primer semestre. |(Numérico)|
+|29.	|Curricular units 2st sem (approved) [Unidades curriculares 2do sem (aprobadas)]: |El número de unidades curriculares aprobadas por el estudiante en el primer semestre. |(Numérico)|
+|30.	|Curricular units 2st sem (grade)|--|--|
+|31.	|Curricular units 2st sem (without evaluations)|--|--|
+|32.	|Unemployment rate [Tasa de desempleo]:|--|--|
+|33.	|Inflation rate [Tasa de inflación]:|--|--|
+|34.	|GDP [PIB]:|--|--|
+|35.	|Target [Objetivo]: |Clasificación del registro entre Dropout [Abandonó], Graduated [Graduado], Enrolled [matriculado].|--|
 
 ## Metodología:
 
